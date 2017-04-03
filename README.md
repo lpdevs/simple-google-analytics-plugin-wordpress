@@ -5,7 +5,7 @@
   * To use Google Analytics, you have to sign up for Google Account, then using it to sign in Google Analytics. 
   * Create an account, then make a property as a web application. You will have a ID for each application, just use it below.
 
-### Code
+### Code for Plugin
   
   * Code:
     ```php
