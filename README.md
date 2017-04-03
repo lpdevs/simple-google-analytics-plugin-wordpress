@@ -2,10 +2,10 @@
 
   * Google Analytics Solutions offer free and enterprise analytics tools to measure website, app, digital 
   and offline data to gain customer insights.
-  * To use Google Analytics, you have to sign in for Google Account, then using it to sign in Google Analytics. 
+  * To use Google Analytics, you have to sign up for Google Account, then using it to sign in Google Analytics. 
   * Create an account, then make a property as a web application. You will have a ID for each application, just use it below.
 
-### Explanation code
+### Code
   
   * Code:
     ```php
@@ -30,4 +30,11 @@
     }
     add_action( 'wp_head', 'wp_lpdevs_google_analytics');
     ```
+  * Replace **Google-Analytics-ID** with yours, such as: UA-96583605-1
+  
+### How to use
+
+  * Copy this file to **/wp-content/plugins**
+  * After that, login to Wordpress Dashboard, choose Plugin. You will see this new plugin is listed. Just activate it.
+  
     
